@@ -57,7 +57,7 @@ export const projects_model = [
     links: [{link: "https://github.com/SfundoMhlungu/petal-js", type: "github"}],
     project_type: ["Frontend", "DevTool"],
     description_2: "",
-    img: "./projects/vanilla/1.png"
+    img: "./projects/1.png"
 
     },
     {
@@ -97,42 +97,42 @@ export const projectDetail = {
         isWhite: true
     },
     "Gym Suite": {
-        longer_description: "",
-        project_implementation: ["", ""],
+        longer_description: "I created this application as part of my fitness journey, after noticing that the actual demotivating part in this journey is planning and finding a suitable workout, on top of that track everything manually, it becomes tideous and boring very quickly. Gym Suite solves exactly that, allows the user to string together a perfect workout from predefined templates, which are also customizable to create shorter or longer workouts, intense or normal quickly to one's heart desire, On top of that the application pulls new templates and challenges from a database if they are added, as a bonus during a workout multiple components track other stuff like calories burnt, time worked out etc, to fill the dashboard.",
+        project_implementation: ["Gym suite is quite large than other applications I've created so far with many moving pieces and complex components, at the core is the session component which is super complex and responsible for managing/playing a selected session or workout, switching from a session to a break, whilst tracking the current and next workout and if the workout is complete, if not how much time is left and how many calories have been burnt so far, on top of it all the component also manages speech syntesis to communicate to the user the state of the session, current workout and time, when all this is done, the component also consolidates all the data gathered and stores it in a database in a meaningful way", "The dashboard component feeds from the data gathered by the session component and visualize the data in a meaningful and intepretive way "],
         stack_explanation: {
-             stack:  [{icon:"./svg/next-js.svg", name: "next.js"}, {name: "Ionic",icon:"./svg/file-type-ionic.svg"}, {icon:"./svg/typescript-icon.svg", name: "Typescript"}],
-             explanations: ["", ""],
+             stack:  [{icon:"./svg/react.svg", name: "react.js"}, {name: "xstate",icon:"./svg/xstate.svg"}, {icon:"./svg/material-ui.svg", name: "MUI"}],
+             explanations: ["I used React.js and Material for iterative development and awasome looking reusable components which came in handy in such a project", "To manage complex state I used a the Xstate state machine, which is super efficient and powerful enough to coordinate complex state changes such as the ones happening in the state component.", "The most powerful tool I probably used here also is React query which is magical for state management, database query and update asynchornously"],
             
         },
         visuals: [],
-        problems: ["", ""],
+        problems: ["The only hurdle I faced here is managing multiple chnaging states manually which actually broke the application as there were many moving pieces, changing constantly because of timers etc, that is when I turned to xstate and React query"],
         featured_code: [
             {
                 name: "", 
                 code: ""
             }
         ],
-        lessons: [""],
+        lessons: ["Inveting the wheel is a bad idea especially if there's a well tested tool out there for the task at hand, this is how I actually discovered React query and instantly fell in love", "Before gym suite I didn't like Test Driven Development, after trying it out I can say I am a huge fan and now see testing as a very useful technique and can actually increase development speed a lot as I was able to develop the core of the application in about 4 hours with TDD which normally takes me about 2 days without TDD"],
         lesson_vis: [],
         isWhite: true
     },
     "AlgoViz": {
-        longer_description: "",
-        project_implementation: ["", ""],
+        longer_description: "Many algorithm visualizers exist on the interwebs and have been greatly in the JS world, but I wanted to do something different, an actual parallel/concurrent algorithm visualizer with each algorithm running on it's own seperate web thread.",
+        project_implementation: ["The entire application depends on the communication between threads/web workers and the main thread", "The main thread in this is only responsible for updating the UI, whilst workers do all the heavy lifting and calculations and just communicate the results when ready to the main thread for update using comlink developed by under Google to make web workers enjoyable."],
         stack_explanation: {
-             stack:  [{icon:"./svg/next-js.svg", name: "next.js"}, {name: "Ionic",icon:"./svg/file-type-ionic.svg"}, {icon:"./svg/typescript-icon.svg", name: "Typescript"}],
-             explanations: ["", ""],
+             stack:  [{icon:"./svg/web.svg", name: "workers"}, {name: "Atomicus",icon:"./man-technologist-medium-skin-tone.09a6d491.svg"}],
+             explanations: ["As alluded before AlgoViz uses web workers to achieve threaded programming with each algorithm, both sorting and graph algorithms running on their own threads and using comlink to communicate with the main thread", "Whilst for the frontend I used a tiny library I created Atomicus to create stateful, self contained HTML element"],
             
         },
         visuals: [],
-        problems: ["", ""],
+        problems: ["The main problem I faced was debugging web workers as it was my first time I was using comlink with web workers as I usually implement a pattern from scratch, but with a little research and looking at the codebase a little I was able to figure out a few details"],
         featured_code: [
             {
                 name: "", 
                 code: ""
             }
         ],
-        lessons: [""],
+        lessons: ["As Surma puts on his talk 'The main thread is overworked' sometimes slower does not mean bad for the user but a janky UI does - as he was refering to the passing of data between threads which can be slow a times depending on the size of data while this might be slow which is rare does not cause the browser to freeze as it frees the main thread to handle the UI, so no this page is slowing down your browser, I learned that web workers can probably make it possible to bring computive intensive apps entirely to the client side"],
         lesson_vis: [],
         isWhite: true
     },
@@ -157,22 +157,22 @@ export const projectDetail = {
         isWhite: false
     },
     Petal: {
-        longer_description: "",
-        project_implementation: ["", ""],
+        longer_description: "I built petal as an experiment to understand how frameworks and libraries work, it's just a tiny compiler that takes python looking code and create stateful HTML elements",
+        project_implementation: ["Albeit small the entire framework is actually complex, I first had to create a lexer to read in a petal file and convert it to a parsable structure.", "After creating this parsable structure I created a parser to inteprete this structure into JavaScript code that can be translated to HTML elements, what the parser spits out is an object commonly known as a virtual dom which is intepreted by petal-js the actual frontend library responsible for state management, routing etc", "To bind all these elements together to create a useful coherent tool I created a CLI tool, that coordinates and automates most of the actions mentioned above from lexing to generating a file with a virtual DOM structure which is read by petal-js"],
         stack_explanation: {
-             stack:  [{icon:"./svg/next-js.svg", name: "next.js"}, {name: "Ionic",icon:"./svg/file-type-ionic.svg"}, {icon:"./svg/typescript-icon.svg", name: "Typescript"}],
-             explanations: ["", ""],
+             stack:  [ {icon:"./svg/javascript-js.svg", name: "JavaScript"}],
+             explanations: ["The entire framework is created in JavaScript, which was actually faster to develop with."],
             
         },
-        visuals: [],
-        problems: ["", ""],
+        visuals: ["./projects/2.png", "./projects/3.png", "./projects/4.png"],
+        problems: ["The most complex problem I faced was parsing a petal function which basically looks like a python function to a JavaScript function, turns out parsing functions is actually very complex, I got stuck for about two days as there was no documentation or stack overflow as it was new and from my mind, which I finally figured out through trial and error using the new Function JS feature, which I must admit felt really good."],
         featured_code: [
             {
                 name: "", 
                 code: ""
             }
         ],
-        lessons: [""],
+        lessons: ["immediately after finishing this framework I noticed an increase in my coding and problem solving skills, even frontend, from then till now I learnt the importance of learning and implementing lower level concepts as a self taught developer, since then I learned a few lower level languages like Zig and C"],
         lesson_vis: [],
         isWhite: false
     },
