@@ -750,7 +750,7 @@ function project(p) {
                         tag: "div",
                         attrs: {
                             class: "description text-gray-900 dark:text-white",
-                            style: ""
+                            style: "opacity: .7;"
                         },
                         children: [
                             {
@@ -773,7 +773,9 @@ function project(p) {
                         tag: "a",
                         attrs: {
                             onclick: ()=>(0, _octopusDefault.default).notify("details", p),
-                            class: "btn-gumroad dark:text-teal-400 text-white dark:bg-gray-900  bg-gray-900 px-4 py-2 ml-8"
+                            //   class: "btn-gumroad dark:text-teal-400 text-white dark:bg-gray-900  bg-gray-900 px-4 py-2 ml-8"
+                            class: "social-links dark:text-orange-200 text-orange-900 py-5",
+                            style: "cursor: pointer; text-decoration: underline;"
                         },
                         children: [
                             "view project"
