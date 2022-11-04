@@ -828,7 +828,7 @@ const projects_model = [
             "Frontend"
         ],
         description_2: "",
-        img: "./projects/frame/main.png"
+        img: "./projects/frame/1.png"
     },
     {
         name: "Pam",

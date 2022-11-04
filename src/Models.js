@@ -17,7 +17,7 @@ export const projects_model = [
         links: [{link: "", type: "yt"}, {link: "", type: "live"}],
         project_type: ["Full Stack", "Frontend"],
         description_2: "",
-        img: "./projects/frame/main.png"
+        img: "./projects/frame/1.png"
 
     },
     {
