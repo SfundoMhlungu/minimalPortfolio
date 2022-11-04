@@ -960,8 +960,8 @@ const projectDetail = {
                     name: "ML5"
                 },
                 {
-                    name: "Atomicus",
-                    icon: "./man-technologist-medium-skin-tone.09a6d491svg"
+                    icon: "./man-technologist-medium-skin-tone.09a6d491.svg",
+                    name: "Atomicus"
                 },
                 {
                     icon: "./svg/express-original.svg",
@@ -969,9 +969,9 @@ const projectDetail = {
                 }
             ],
             explanations: [
-                "Bokke.js is at the core of Frame, functionality wise, as it is responsible for turning csv to tabular data, visualization, manipulation and data cleaning, the coolest part propably is bokke.js run's on a seperate thread isolating large data and heavy calculations from the main thread, which only handles UI updates, I built bokke.js entirely with Typescript which makes it robust and easily mantainable.",
+                "bokke.js is at the core of Frame, functionality wise, as it is responsible for turning csv to tabular data, visualization, manipulation and data cleaning, the coolest part propably is bokke.js run's on a seperate thread isolating large data and heavy calculations from the main thread, which only handles UI updates, I built bokke.js entirely with Typescript which makes it robust and easily mantainable.",
                 "Ml5 is responsible for everything Machine Learning, from fitting models, to downloading them to be used in the browser, as ML5 is built on top of tensorflow.js",
-                "Atomicus another frontend tool I built is probably the heavy lifter of this web app in terms of frontend, which is responsible for creating self contained, self aware stateful HTML elements, and establishing communication between them using the MVC pattern, and facilitating communication also between elements and ML5, elements and Bokke.js",
+                "Atomicus another frontend tool I built is probably the heavy lifter of this web app in terms of frontend, which is responsible for creating self contained, self aware stateful HTML elements, and establishing communication between them using the MVC pattern, and facilitating communication also between elements and ML5, elements and bokke.js",
                 "Express is responsible for everything server side, authentication, signup, saving models to a remote database with an account"
             ]
         },
