@@ -44,27 +44,27 @@ a {
 .btn-gumroad {
                 
     
+ 
+
+  display: inline-block;
   outline: 0;
-  grid-gap: 8px;
-  align-items: center;
-  /* background-color: teal; */
-  /* color: black; */
-  border: 1px solid black;
-  /* opacity: .7; */
-  /* border-radius: 4px; */
   cursor: pointer;
-  display: inline-flex;
-  flex-shrink: 0;
-  font-size: 16px;
-  gap: 8px;
-  justify-content: center;
-  line-height: 1.5;
-  overflow: hidden;
-  padding: 6px 12px;
-  text-decoration: none;
-  text-overflow: ellipsis;
-  transition: all .14s ease-out;
-  white-space: nowrap;
+  text-align: center;
+  border: 1px solid #babfc3;
+  padding: 7px 16px;
+  min-height: 36px;
+  min-width: 36px;
+  color: #202223;
+  background: #ffffff;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px; */
+     box-shadow: -4px 4px 0 #000;
+    /* transform: translate(-4px,-4px); */
+
+ 
+
 
   /* box-shadow: 4px 4px 0 #000;
   transform: translate(-4px,-4px); */
@@ -72,9 +72,10 @@ a {
 }
 
 .btn-gumroad:hover {
-  box-shadow: 4px 4px 0 #000;
-  transform: translate(-4px,-4px);
+  background: wheat;
+  /* outline: 1px solid transparent; */
+  /* transform: translate(-5px,5px); */
+  
 }
-.btn-gumroad:focus-visible{
-  outline-offset: 1px;
-}
+
+

@@ -745,8 +745,8 @@ function project(p) {
                     {
                         tag: "div",
                         attrs: {
-                            class: "description",
-                            style: "color: white; opacity: 0.6"
+                            class: "description text-gray-900 dark:text-white",
+                            style: ""
                         },
                         children: [
                             {

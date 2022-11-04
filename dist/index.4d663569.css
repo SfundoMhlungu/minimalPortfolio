@@ -163,7 +163,6 @@
 }
 
 .selected {
-  color: #fff;
   transform: all scale(2);
   border: 1px solid #228b22;
 }

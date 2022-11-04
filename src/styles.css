@@ -217,6 +217,6 @@
 .selected{
     border: 1px solid forestgreen;
     /* background-color: green; */
-    color: white;
+    /* color: white; */
     transform: all scale(2);
 }
