@@ -294,7 +294,7 @@ const m = (state) => [
                                     attrs: {
                                         class: "text-2xl py-2 dark:text-white md:text-3xl"
                                     } ,
-                                    children: ["Lesson's learned"]
+                                    children: ["Lessons learned"]
                                 },
                                 {
                                     tag: "div", 

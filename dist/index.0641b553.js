@@ -1107,7 +1107,7 @@ const projectDetail = {
             explanations: [
                 "I used next.js with tailwind css for this app, to create reusable components which actually allowed iterative development and mantaining a solid design system.",
                 "Ionic was primarly used for bundling the web app into an android installable APK, using capacitor js.",
-                "I needed beautiful ,efficient and performant charts since this was running on  mobile, chart.js came in handy for such task"
+                "I needed beautiful ,efficient and performant charts since this was running on  mobile, chart.js came in handy for such a task."
             ]
         },
         visuals: [
@@ -1116,8 +1116,8 @@ const projectDetail = {
             "./projects/Pam/4.png"
         ],
         problems: [
-            "A huge problem I ran into was definitely creating charts solely for mobile, because you can only have so much control for chart's, they are like images very unruly in terms of size, aspect ratio etc.",
-            "Because of this I bacame well versed in different chart types, and their uses and effectiveness in conveying findings and visual message",
+            "A huge problem I ran into was definitely creating charts solely for mobile, because you can only have so much control for charts, they are like images very unruly in terms of size, aspect ratio etc.",
+            "Because of this I bacame well versed in different chart types, and their uses and effectiveness in conveying findings and visual message.",
             "Another problem I cam across was domain knowledge, I did not really know anything about allergies and my friend had no knowledge of programming so I had to find a way to converge the two world's so we were able to communicate and create something together, while understanding each other"
         ],
         featured_code: [
@@ -1127,7 +1127,7 @@ const projectDetail = {
             }
         ],
         lessons: [
-            "One of the most important lesson's I came out with here is communicating programming solutions to non programmers, and vice versa, getting enough and useful domain knowledge from a 'client' to be able to create something useful and userable"
+            "One of the most important lessons I came out with here is communicating programming solutions to non programmers, and vice versa, getting enough and useful domain knowledge from a 'client' to be able to create something useful and userable"
         ],
         lesson_vis: [],
         isWhite: false
@@ -1491,7 +1491,7 @@ const m = (state)=>[
                                         class: "text-2xl py-2 dark:text-white md:text-3xl"
                                     },
                                     children: [
-                                        "Lesson's learned"
+                                        "Lessons learned"
                                     ]
                                 },
                                 {
