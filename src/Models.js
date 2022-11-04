@@ -137,22 +137,22 @@ export const projectDetail = {
         isWhite: true
     },
     Pam: {
-        longer_description: "",
-        project_implementation: ["", ""],
+        longer_description: "I created this application for a very close friend of mine, who suffers from unpredictable allergic reactions, which affected work and daily life, because they were hard to track and even predict. This mobile app is built around that concept track, learn the patterns and use the learned patterns to predict an allergic reaction and it's severity given a potential trigger.",
+        project_implementation: ["The app has multiple dependent components, with the central component being the Track component which allows inserting new potential triggers and tracking them throughout the day, updating reaction and pain level status with these categories: 'Mild, Moderate and Severe'.", "The second main Component uses the data inserted in track to predict reactions for similar potential triggers using bigram, trigrams and string similarity algorithms.", "The last component deals with visualization as it is the best way to communicate data and findings easily."],
         stack_explanation: {
-             stack: [{icon:"./svg/next-js.svg", name: "next.js"}, {name: "Ionic",icon:"./svg/file-type-ionic.svg"}, {icon:"./svg/typescript-icon.svg", name: "Typescript"}],
-             explanations: ["", ""],
+             stack: [{icon:"./svg/next-js.svg", name: "next.js"}, {name: "Ionic",icon:"./svg/file-type-ionic.svg"}, {icon:"./svg/chartjs.svg", name: "Chart.js"}],
+             explanations: ["I used next.js with tailwind css for this app, to create reusable components which actually allowed iterative development and mantaining a solid design system.", "Ionic was primarly used for bundling the web app into an android installable APK, using capacitor js.", "I needed beautiful ,efficient and performant charts since this was running on  mobile, chart.js came in handy for such task"],
             
         },
         visuals: ["./projects/Pam/2.png",  "./projects/Pam/3.png", "./projects/Pam/4.png"],
-        problems: ["", ""],
+        problems: ["A huge problem I ran into was definitely creating charts solely for mobile, because you can only have so much control for chart's, they are like images very unruly in terms of size, aspect ratio etc.", "Because of this I bacame well versed in different chart types, and their uses and effectiveness in conveying findings and visual message", "Another problem I cam across was domain knowledge, I did not really know anything about allergies and my friend had no knowledge of programming so I had to find a way to converge the two world's so we were able to communicate and create something together, while understanding each other"],
         featured_code: [
             {
                 name: "", 
                 code: ""
             }
         ],
-        lessons: [""],
+        lessons: ["One of the most important lesson's I came out with here is communicating programming solutions to non programmers, and vice versa, getting enough and useful domain knowledge from a 'client' to be able to create something useful and userable"],
         lesson_vis: [],
         isWhite: false
     },
