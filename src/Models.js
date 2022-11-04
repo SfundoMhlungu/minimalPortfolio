@@ -67,7 +67,7 @@ export const projects_model = [
         links: [{link: "https://github.com/SfundoMhlungu/atomica", type: "github"}],
         project_type: ["Frontend", "DevTool"],
         description_2: "",
-        img: "./projects/vanilla/1.png"
+        img: "./projects/8.png"
     
     }
    
@@ -177,22 +177,22 @@ export const projectDetail = {
         isWhite: false
     },
     Atomicus: {
-        longer_description: "",
-        project_implementation: ["", ""],
+        longer_description: "Atomicus was born out of larger project: Frame which is a cross platform web app to make Machine Learning, data manipulation and visualization accesible for anyone, atomicus provides atomic methods to create stateful HTML elements, and a method to clear those elements, and lastly a PubSub class to create a pubsub pattern allowing the implementation of the MVC pattern as the global PubSub acts as the octopus/controller",
+        project_implementation: ["The library is implemented entirely in Typescript, and uses the React virtual DOM presentation to create elements, the createElement method takes a vdom like structure and produces HTML elements."],
         stack_explanation: {
-             stack:  [{icon:"./svg/next-js.svg", name: "next.js"}, {name: "Ionic",icon:"./svg/file-type-ionic.svg"}, {icon:"./svg/typescript-icon.svg", name: "Typescript"}],
-             explanations: ["", ""],
+             stack:  [{icon:"./svg/typescript-icon.svg", name: "Typescript"}],
+             explanations: ["I almost always use Typescript for libraries that I intend to use in the long as I find TS very robust and highly mantainable"],
             
         },
-        visuals: [],
-        problems: ["", ""],
+        visuals: ["./projects/6.png", "./projects/5.png", "./projects/7.png"],
+        problems: ["I really did not encounter that much of a problem here as I was implementing stuff I already know and implemented, a little problem maybe was dealing with different types of HTML elements and registering relevant events while converting from vdom to actual HTML"],
         featured_code: [
             {
                 name: "", 
                 code: ""
             }
         ],
-        lessons: [""],
+        lessons: ["Investement in developer tools will definetley payout in the long run, since the inception of Atomicus I have been able to develop vanilla apps 200x faster and iteratively as it enforces a pattern already(MVC) and I don't have to switch between HTML and JS, I can stay in JS and create a single page application from there using atomicus"],
         lesson_vis: [],
         isWhite: false
     }
