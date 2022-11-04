@@ -1,0 +1,171 @@
+.tools {
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: .6em;
+  display: flex;
+}
+
+.projects {
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+  display: grid;
+}
+
+.projects > div {
+  height: 500px;
+}
+
+.project {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+
+.img {
+  height: 85%;
+  object-fit: cover;
+}
+
+.generalImg {
+  object-fit: cover;
+}
+
+.generalImgWborder {
+  object-fit: cover;
+  border: .5px solid gray;
+}
+
+.img2 {
+  height: 400px;
+  object-fit: cover;
+}
+
+.tool {
+  text-align: center;
+  width: max-content;
+  border: 2px solid #000;
+  padding: .3em .8em;
+}
+
+.links {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding-top: 1em;
+  display: flex;
+}
+
+.detailed {
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 2em;
+  padding-right: 2em;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.detailed > * {
+  cursor: pointer;
+}
+
+.description > * {
+  margin: .6em;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+.con {
+  width: 100vw;
+}
+
+.detailParent {
+  width: 100%;
+  gap: 3em;
+  display: grid;
+}
+
+.imgCon {
+  margin: 4em 0;
+}
+
+.stack {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+.icons {
+  height: 20px;
+  background: #ff0;
+  padding: .5em;
+}
+
+.gallery {
+  grid-template-areas: "one two"
+                       "one three";
+  gap: 1em;
+  display: grid;
+}
+
+.stackImgs {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.stackImgs img {
+  padding: .5em 3em;
+}
+
+#btnCon {
+  width: 100%;
+  align-items: flex-start;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .projects > div {
+    height: 600px;
+    width: 100%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .gallery {
+    grid-template-areas: "one";
+    gap: 1em;
+  }
+
+  .stack {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+}
+
+.notselected {
+  border: 1px solid bisque;
+}
+
+.selected {
+  color: #fff;
+  transform: all scale(2);
+  border: 1px solid #228b22;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

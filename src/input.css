@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../public/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Robotbold";
+  src: url("../public/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family:"Roboto", "Robotbold" -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+@font-face {
+  font-family: "burtons";
+  src: url("../public/Burtons.otf");
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+.btn-gumroad {
+                
+    
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  /* background-color: teal; */
+  /* color: black; */
+  border: 1px solid black;
+  /* opacity: .7; */
+  /* border-radius: 4px; */
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all .14s ease-out;
+  white-space: nowrap;
+
+  /* box-shadow: 4px 4px 0 #000;
+  transform: translate(-4px,-4px); */
+
+}
+
+.btn-gumroad:hover {
+  box-shadow: 4px 4px 0 #000;
+  transform: translate(-4px,-4px);
+}
+.btn-gumroad:focus-visible{
+  outline-offset: 1px;
+}
