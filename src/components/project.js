@@ -118,7 +118,7 @@ export default function project(p){
                     tag: "a",
                     attrs: {
                       onclick: () => Bus.notify("details", p),
-                      class: "btn-gumroad text-white px-4 py-2 ml-8"
+                      class: "btn-gumroad dark:text-teal-400 text-white dark:bg-gray-900  bg-gray-900 px-4 py-2 ml-8"
                     },
                     children: ["view project"]
                 }

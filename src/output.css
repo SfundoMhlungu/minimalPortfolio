@@ -806,20 +806,20 @@ a {
   padding: 7px 16px;
   min-height: 36px;
   min-width: 36px;
-  color: #202223;
-  background: #ffffff;
+  /* color: #202223; */
+  /* background: #ffffff; */
   border-radius: 4px;
   font-weight: 500;
   font-size: 14px;
   /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px; */
-  box-shadow: -4px 4px 0 #000;
+  /* box-shadow: -4px 4px 0 #000; */
   /* transform: translate(-4px,-4px); */
   /* box-shadow: 4px 4px 0 #000;
   transform: translate(-4px,-4px); */
 }
 
 .btn-gumroad:hover {
-  background: wheat;
+  /* background: ; */
   /* outline: 1px solid transparent; */
   /* transform: translate(-5px,5px); */
 }
@@ -837,6 +837,11 @@ a {
 .dark .dark\:bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:text-white {
@@ -862,6 +867,11 @@ a {
 .dark .dark\:text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-teal-200 {
+  --tw-text-opacity: 1;
+  color: rgb(153 246 228 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

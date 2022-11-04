@@ -541,6 +541,10 @@ const btn_con = document.querySelector("#btnCon");
 const long = document.querySelector("#long");
 const short = document.querySelector("#short");
 let current = document.querySelector(`[role=short]`);
+const mode = document.querySelector("#mode");
+mode.addEventListener("click", ()=>{
+    document.body.classList.toggle("dark");
+});
 btn_con.addEventListener("click", (e)=>{
     console.log(e.target.outerText);
     console.log(e, e.target);
@@ -769,7 +773,7 @@ function project(p) {
                         tag: "a",
                         attrs: {
                             onclick: ()=>(0, _octopusDefault.default).notify("details", p),
-                            class: "btn-gumroad text-white px-4 py-2 ml-8"
+                            class: "btn-gumroad dark:text-teal-400 text-white dark:bg-gray-900  bg-gray-900 px-4 py-2 ml-8"
                         },
                         children: [
                             "view project"

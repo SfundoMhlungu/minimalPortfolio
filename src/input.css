@@ -54,13 +54,13 @@ a {
   padding: 7px 16px;
   min-height: 36px;
   min-width: 36px;
-  color: #202223;
-  background: #ffffff;
+  /* color: #202223; */
+  /* background: #ffffff; */
   border-radius: 4px;
   font-weight: 500;
   font-size: 14px;
   /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px; */
-     box-shadow: -4px 4px 0 #000;
+     /* box-shadow: -4px 4px 0 #000; */
     /* transform: translate(-4px,-4px); */
 
  
@@ -72,7 +72,7 @@ a {
 }
 
 .btn-gumroad:hover {
-  background: wheat;
+  /* background: ; */
   /* outline: 1px solid transparent; */
   /* transform: translate(-5px,5px); */
   
