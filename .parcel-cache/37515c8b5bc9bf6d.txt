@@ -17,7 +17,7 @@
 106C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\postcss\lib\container.d.ts133119990357504089 0
 113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\lib\util\nameClass.js133119990372044062 0
 91C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\object-hash133119990343284064 1
-71C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist133120131781446891 1
+71C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist133120218035303801 1
 117C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\lib\util\isPlainObject.js133119990371544056 0
 83C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\svg\api.svg133116183893309958 0
 123C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\@nodelib\fs.scandir\out\providers\common.js133119990340574069 0
@@ -68,7 +68,7 @@
 97C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\projects\atomicus\2.png133081129696265080 0
 119C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\postcss-plugins\nesting133119990378055800 1
 124C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\test\module_dir\zmodules\bbb\main.js133119990364704065 0
-80C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\Models.js133120123700286605 0
+80C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\Models.js133120218026545513 0
 98C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\fonts\Roboto\LICENSE.txt130021560000000000 0
 100C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\minimalPortfolio.59712999.js133117188097172744 0
 99C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\scripts133119990376525822 1
@@ -1530,8 +1530,8 @@
 93C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.816e7b21.js.map133117190014925190 0
 99C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\alternate-external-link.svg133089647181223680 0
 92C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\Burtons.5c2995ef.otf133120071347916948 0
-89C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.0641b553.js133120123705187663 0
-93C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.0641b553.js.map133120123705340425 0
+89C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.0641b553.js133120218035103681 0
+93C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.0641b553.js.map133120218035263819 0
 90C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.1568f793.css133120119366854298 0
 90C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.4d663569.css133120071347896914 0
 94C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.4d663569.css.map133120071348952560 0

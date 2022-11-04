@@ -819,10 +819,6 @@ const projects_model = [
             {
                 link: "",
                 type: "yt"
-            },
-            {
-                link: "",
-                type: "live"
             }
         ],
         project_type: [
@@ -870,10 +866,6 @@ const projects_model = [
             {
                 link: "",
                 type: "yt"
-            },
-            {
-                link: "",
-                type: "live"
             }
         ],
         project_type: [
@@ -896,7 +888,7 @@ const projects_model = [
         ],
         links: [
             {
-                link: "",
+                link: "https://github.com/SfundoMhlungu/AlgoViz",
                 type: "github"
             },
             {
@@ -919,12 +911,8 @@ const projects_model = [
         ],
         links: [
             {
-                link: "",
+                link: "https://github.com/SfundoMhlungu/petal-js",
                 type: "github"
-            },
-            {
-                link: "",
-                type: "yt"
             }
         ],
         project_type: [
@@ -942,12 +930,8 @@ const projects_model = [
         ],
         links: [
             {
-                link: "",
+                link: "https://github.com/SfundoMhlungu/atomica",
                 type: "github"
-            },
-            {
-                link: "",
-                type: "yt"
             }
         ],
         project_type: [
@@ -960,10 +944,10 @@ const projects_model = [
 ];
 const projectDetail = {
     Frame: {
-        longer_description: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi voluptatum quasi amet architecto, voluptatibus impedit autem iste similique perspiciatis, ratione omnis distinctio vel commodi quos itaque perferendis veritatis quae nihil, natus labore ducimus? Dolorem unde vero quaerat obcaecati, maxime magni alias sint magnam soluta numquam! Qui voluptatem laudantium laborum accusantium soluta a iure exercitationem consequatur eum. Reprehenderit animi numquam provident fugit quaerat vitae. Obcaecati vel velit natus magni nisi sequi fuga, facere neque cupiditate delectus illum odio accusamus rerum dignissimos ipsa nihil expedita asperiores amet dolor maxime a. Voluptatem tenetur similique deserunt itaque incidunt numquam, repellendus vero nisi! Molestias quae ullam enim nulla quod dolorem quidem aliquam, velit voluptatibus cum reprehenderit dolorum, rem tenetur dignissimos iure! Fuga quas quod ea!",
+        longer_description: "Frame is actually a combination of a dataframe inspired by the Python pandas library, written in pure Typescript and Machine Learning using ML5, the sole purpose of frame is to iteratively manipulate, clean and fit Machine Learning models to tabular data without touching or seeing code, making ML accessible and quick for anyone and it's all on the client side thanks to web workers.",
         project_implementation: [
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsa inventore in, tempore iure cum a obcaecati, sint quos dolorum ipsam harum qui! Suscipit minus nobis commodi labore necessitatibus aspernatur.",
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsa inventore in, tempore iure cum a obcaecati, sint quos dolorum ipsam harum qui! Suscipit minus nobis commodi labore necessitatibus aspernatur."
+            "Frame has 3 major components, the first component is responsible for creating self contained, self aware stateful HTML elements, the second is responsible for communication between elements created by component 1 and the lower level dataframe code or thread and fitting neaural networks, while the last is only responsible for user feedback, downloading files, ML models, connecting to a database and user authentication.",
+            "Frame is way more than a CRUD app, for example each session can have multiple elements of the same type e.g 3 scatter charts, the afore mentioned components make sure these elements are independent, manage their own state, don't intermingle and confuse each other even thou they are similar."
         ],
         stack_explanation: {
             stack: [
