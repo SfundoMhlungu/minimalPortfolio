@@ -1,4 +1,4 @@
-1567
+1569
 107C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\util\log.js133119990371934047 0
 100C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\postcss\lib\parse.js133119990350324070 0
 79C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\package.json133117264765761988 0
@@ -17,7 +17,7 @@
 106C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\postcss\lib\container.d.ts133119990357504089 0
 113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\lib\util\nameClass.js133119990372044062 0
 91C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\object-hash133119990343284064 1
-71C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist133120123705386445 1
+71C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist133120131781446891 1
 117C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\lib\util\isPlainObject.js133119990371544056 0
 83C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\svg\api.svg133116183893309958 0
 123C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\@nodelib\fs.scandir\out\providers\common.js133119990340574069 0
@@ -43,7 +43,7 @@
 113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\detective\test\files\for-await.js133119990348934062 0
 111C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\detective\test\files\chained.js133119990342944090 0
 123C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\util\parseBoxShadowValue.js133119990373074095 0
-73C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public133119997923788965 1
+73C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public133120130440338965 1
 128C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\test\resolver\browser_field\package.json133119990367924049 0
 101C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\projects\Pam\prediction.PNG133118086044670943 0
 100C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\is-glob\package.json133119990339114060 0
@@ -55,13 +55,10 @@
 85C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\tailwind.config.js133119609177189636 0
 81C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\components133117487429384658 1
 122C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\@nodelib\fs.scandir\out\providers\async.js133119990338524137 0
-81C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\index.html133120072347667010 0
+81C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\index.html133120131692626800 0
 121C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\supports-preserve-symlinks-flag\.eslintrc133119990335324056 0
 84C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\gsap133119990370464092 1
 107C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\gsap\types\custom-ease.d.ts133119990370894055 0
-114C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\@nodelib\fs.scandir\out\index.d.ts133119990352164114 0
-116C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\postcss-selector-parser\package.json133119990357464067 0
-91C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\bin133119990343654133 1
 106C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\gsap\src\ScrollToPlugin.js133119990365574052 0
 107C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\postcss\lib\previous-map.js133119990351654063 0
 97C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\source-map-js\lib133119990349244057 1
@@ -93,11 +90,6 @@
 98C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\postcss-js\sync.js133119990344524093 0
 79C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\Views.js133118292567497233 0
 108C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\test\node_path\x\aaa133119990360504109 1
-123C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\util\transformThemeValue.js133119990376462537 0
-104C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\fonts\Roboto\Roboto-Italic.ttf130021560000000000 0
-99C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\css133119990346144058 1
-101C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\colors.js133119990358454033 0
-91C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\yaml\map.js133119990349654091 0
 94C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\yaml\README.md133119990362674079 0
 92C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\components\project.js133120039633163320 0
 107C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\test\precedence\bbb133119990364914057 1
@@ -111,6 +103,12 @@
 90C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fill-range133119990340514083 1
 99C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\acorn-node\build.js133119990335874049 0
 85C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\Burtons.otf133100168506100488 0
+100C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\color-name\README.md133119990341044077 0
+116C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\lib\util\createPlugin.js133119990362554097 0
+106C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\queue-microtask\index.d.ts133119990342244095 0
+94C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fastq\bench.js133119990337224048 0
+111C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\man-technologist-medium-skin-tone.svg133120130047692582 0
+113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\cli\build\deps.js133119990364904047 0
 106C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\binary-extensions\index.js133119990337234050 0
 94C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\projects\bokke\3.jpg133081132431116814 0
 101C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\minimist\test\bool.js133119990342634061 0
@@ -177,6 +175,11 @@
 118C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\acorn-node\lib\export-ns-from\index.js133119990346104075 0
 95C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src133119990374184038 1
 108C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\fonts\Roboto\Roboto-BoldItalic.ttf130021560000000000 0
+123C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\util\transformThemeValue.js133119990376462537 0
+104C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\fonts\Roboto\Roboto-Italic.ttf130021560000000000 0
+99C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\css133119990346144058 1
+101C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\colors.js133119990358454033 0
+91C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\yaml\map.js133119990349654091 0
 83C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\dlv133119990340034073 1
 103C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\public\fonts\Roboto\Roboto-Light.ttf130021560000000000 0
 99C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\path-parse\index.js133119990337024060 0
@@ -603,9 +606,9 @@
 104C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\postcss\lib\processor.js133119990351984082 0
 113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\util\dataTypes.js133119990363494093 0
 112C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\util\defaults.js133119990364574060 0
+101C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\gsap\src\Draggable.js133119990355864068 0
 116C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\util\escapeCommas.js133119990365414084 0
 96C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\minimist\.github133119990353944070 1
-101C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\gsap\src\Draggable.js133119990355864068 0
 115C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fast-glob\out\providers\provider.js133119990353564079 0
 113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\test\resolver\baz\quux.js133119990366234064 0
 125C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\util\formatVariantSelector.js133119990366924060 0
@@ -677,10 +680,6 @@
 97C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\gsap\gsap-core.js133119990361184064 0
 113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\cli\init\index.js133119990371224042 0
 113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\cli\help\index.js133119990371044070 0
-100C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\color-name\README.md133119990341044077 0
-116C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\lib\util\createPlugin.js133119990362554097 0
-106C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\queue-microtask\index.d.ts133119990342244095 0
-113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\cli\build\deps.js133119990364904047 0
 85C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\svg\react.svg133116180967665025 0
 129C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\test\module_dir\zmodules\bbb\package.json133119990367784085 0
 115C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\src\cli\build\plugin.js133119990373794048 0
@@ -839,6 +838,9 @@
 101C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\.editorconfig133119990335344129 0
 95C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\.github133119990369064131 1
 96C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\async.js133119990348984067 0
+114C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\@nodelib\fs.scandir\out\index.d.ts133119990352164114 0
+116C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\postcss-selector-parser\package.json133119990357464067 0
+91C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\bin133119990343654133 1
 103C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fast-glob\out\providers133119990363034129 1
 96C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\resolve\index.js133119990358584119 0
 97C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\gsap\Draggable.js133119990355214081 0
@@ -1297,7 +1299,6 @@
 103C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fill-range\package.json133119990335764067 0
 100C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fill-range\README.md133119990341364104 0
 93C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fastq\.github133119990349854072 1
-94C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fastq\bench.js133119990337224048 0
 96C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fastq\example.js133119990339184095 0
 103C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\camelcase-css\README.md133119990342634061 0
 97C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\fastq\example.mjs133119990347394053 0
@@ -1534,7 +1535,8 @@
 90C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.1568f793.css133120119366854298 0
 90C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.4d663569.css133120071347896914 0
 94C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.4d663569.css.map133120071348952560 0
-82C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.html133120109005102468 0
+82C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.html133120131761531056 0
+118C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\man-technologist-medium-skin-tone.09a6d491.svg133120131781346697 0
 96C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\Roboto-Bold.00efd7aa.ttf133120071349122570 0
 99C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\Roboto-Regular.63b41da7.ttf133120071348382537 0
 77C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\stack133118269276509793 1
