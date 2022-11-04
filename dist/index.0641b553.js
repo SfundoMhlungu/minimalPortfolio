@@ -852,7 +852,7 @@ const projects_model = [
             "Algorithms"
         ],
         description_2: "",
-        img: "./projects/Pam/prediction.png"
+        img: "./projects/Pam/1.png"
     },
     {
         name: "Gym Suite",
@@ -907,7 +907,7 @@ const projects_model = [
             "Algorithms"
         ],
         description_2: "",
-        img: "./projects/algoviz/aLGOvIz.png"
+        img: "./projects/algoviz/1.png"
     },
     {
         name: "Petal",

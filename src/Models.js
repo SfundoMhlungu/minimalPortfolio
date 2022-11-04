@@ -27,7 +27,7 @@ export const projects_model = [
         links: [{link: "", type:"yt"}],
         project_type: ["Frontend", "Algorithms"],
         description_2: "",
-        img: "./projects/Pam/prediction.png"
+        img: "./projects/Pam/1.png"
 
     },
     {
@@ -46,7 +46,7 @@ export const projects_model = [
          links: [{link: "", type: "github"}, {link: "", type: "live"}],
           project_type: ['Frontend', "Algorithms"],
           description_2: "",
-          img: "./projects/algoviz/aLGOvIz.png"
+          img: "./projects/algoviz/1.png"
         
     },
 
