@@ -803,7 +803,7 @@ parcelHelpers.export(exports, "projectDetail", ()=>projectDetail);
 const projects_model = [
     {
         name: "Frame",
-        description_one: "Cross platform web app to make Machine Learning, data manipulation and visualization accesible to everyone.",
+        description_one: "Cross platform web app to make Machine Learning, data manipulation and visualization accesible for anyone.",
         tools: [
             "HTML",
             "CSS",
@@ -834,7 +834,7 @@ const projects_model = [
     },
     {
         name: "Pam",
-        description_one: "Mobile app to monitor and predict allergic reactions based on previous data using string algorithms",
+        description_one: "Mobile app to monitor and predict allergic reactions based on previous data using string algorithms.",
         tools: [
             "Ionic",
             "Capacitor",
@@ -858,7 +858,7 @@ const projects_model = [
     },
     {
         name: "Gym Suite",
-        description_one: "Cross platform web app to string together a perfect workout with predefined and customizable workout templates",
+        description_one: "Cross platform web app for creating a perfect workout with predefined and customizable workout templates.",
         tools: [
             "React",
             "React Query",
@@ -885,7 +885,7 @@ const projects_model = [
     },
     {
         name: "AlgoViz",
-        description_one: "A highly efficient concurrent front-end algorithm visualizer - Sorting and Graph Algorithms",
+        description_one: "A highly efficient concurrent/threaded front-end algorithm visualizer - Sorting and Graph Algorithms",
         tools: [
             "HTML",
             "CSS",
@@ -900,7 +900,7 @@ const projects_model = [
                 type: "github"
             },
             {
-                link: "",
+                link: "https://algo-viz8.vercel.app/",
                 type: "live"
             }
         ],
@@ -967,8 +967,18 @@ const projectDetail = {
         ],
         stack_explanation: {
             stack: [
-                "",
-                ".svg"
+                {
+                    icon: "./svg/next-js.svg",
+                    name: "next.js"
+                },
+                {
+                    name: "Ionic",
+                    icon: "./svg/file-type-ionic.svg"
+                },
+                {
+                    icon: "./svg/typescript-icon.svg",
+                    name: "Typescript"
+                }
             ],
             explanations: [
                 "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsa inventore in, tempore iure cum a obcaecati, sint quos dolorum ipsam harum qui! Suscipit minus nobis commodi labore necessitatibus aspernatur.",
@@ -976,9 +986,9 @@ const projectDetail = {
             ]
         },
         visuals: [
-            "./projects/frame/scatter plot.png",
-            "./projects/frame/nn training.png",
-            "./projects/frame/nn.png"
+            "./projects/frame/2.png",
+            "./projects/frame/3.png",
+            "./projects/frame/4.png"
         ],
         problems: [
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsa inventore in, tempore iure cum a obcaecati, sint quos dolorum ipsam harum qui! Suscipit minus nobis commodi labore necessitatibus aspernatur.",
@@ -1004,8 +1014,18 @@ const projectDetail = {
         ],
         stack_explanation: {
             stack: [
-                "",
-                ".svg"
+                {
+                    icon: "./svg/next-js.svg",
+                    name: "next.js"
+                },
+                {
+                    name: "Ionic",
+                    icon: "./svg/file-type-ionic.svg"
+                },
+                {
+                    icon: "./svg/typescript-icon.svg",
+                    name: "Typescript"
+                }
             ],
             explanations: [
                 "",
@@ -1037,8 +1057,18 @@ const projectDetail = {
         ],
         stack_explanation: {
             stack: [
-                "",
-                ".svg"
+                {
+                    icon: "./svg/next-js.svg",
+                    name: "next.js"
+                },
+                {
+                    name: "Ionic",
+                    icon: "./svg/file-type-ionic.svg"
+                },
+                {
+                    icon: "./svg/typescript-icon.svg",
+                    name: "Typescript"
+                }
             ],
             explanations: [
                 "",
@@ -1070,8 +1100,18 @@ const projectDetail = {
         ],
         stack_explanation: {
             stack: [
-                "",
-                ".svg"
+                {
+                    icon: "./svg/next-js.svg",
+                    name: "next.js"
+                },
+                {
+                    name: "Ionic",
+                    icon: "./svg/file-type-ionic.svg"
+                },
+                {
+                    icon: "./svg/typescript-icon.svg",
+                    name: "Typescript"
+                }
             ],
             explanations: [
                 "",
@@ -1079,9 +1119,9 @@ const projectDetail = {
             ]
         },
         visuals: [
-            "./projects/Pam/stats visual.png",
-            "./projects/Pam/home visual.png",
-            "./projects/Pam/reaction prediction.png"
+            "./projects/Pam/2.png",
+            "./projects/Pam/3.png",
+            "./projects/Pam/4.png"
         ],
         problems: [
             "",
@@ -1107,8 +1147,18 @@ const projectDetail = {
         ],
         stack_explanation: {
             stack: [
-                "",
-                ".svg"
+                {
+                    icon: "./svg/next-js.svg",
+                    name: "next.js"
+                },
+                {
+                    name: "Ionic",
+                    icon: "./svg/file-type-ionic.svg"
+                },
+                {
+                    icon: "./svg/typescript-icon.svg",
+                    name: "Typescript"
+                }
             ],
             explanations: [
                 "",
@@ -1140,8 +1190,18 @@ const projectDetail = {
         ],
         stack_explanation: {
             stack: [
-                "",
-                ".svg"
+                {
+                    icon: "./svg/next-js.svg",
+                    name: "next.js"
+                },
+                {
+                    name: "Ionic",
+                    icon: "./svg/file-type-ionic.svg"
+                },
+                {
+                    icon: "./svg/typescript-icon.svg",
+                    name: "Typescript"
+                }
             ],
             explanations: [
                 "",
@@ -1198,7 +1258,7 @@ const m = (state)=>[
                 {
                     tag: "p",
                     attrs: {
-                        class: "text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl"
+                        class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100"
                     },
                     children: [
                         state.detailed.longer_description
@@ -1220,7 +1280,7 @@ const m = (state)=>[
                         {
                             tag: "div",
                             attrs: {
-                                class: "flex py-2 text-orange-800 dark:text-white",
+                                class: "flex py-2 text-orange-800",
                                 style: "gap: 2em;"
                             },
                             children: state.project.links.map((link)=>{
@@ -1228,7 +1288,8 @@ const m = (state)=>[
                                     tag: "a",
                                     attrs: {
                                         href: link.link,
-                                        target: "_blank"
+                                        target: "_blank",
+                                        style: "text-decoration: underline;"
                                     },
                                     children: [
                                         "Source Code"
@@ -1238,7 +1299,8 @@ const m = (state)=>[
                                     tag: "a",
                                     attrs: {
                                         href: link.link,
-                                        target: "_blank"
+                                        target: "_blank",
+                                        style: "text-decoration: underline;"
                                     },
                                     children: [
                                         "Video Demo"
@@ -1248,7 +1310,8 @@ const m = (state)=>[
                                     tag: "a",
                                     attrs: {
                                         href: link.link,
-                                        target: "_blank"
+                                        target: "_blank",
+                                        style: "text-decoration: underline;"
                                     },
                                     children: [
                                         "Live Demo"
@@ -1298,7 +1361,7 @@ const m = (state)=>[
                                 return {
                                     tag: "p",
                                     attrs: {
-                                        class: "text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl"
+                                        class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100"
                                     },
                                     children: [
                                         d
@@ -1319,11 +1382,27 @@ const m = (state)=>[
                                     },
                                     children: state.detailed.stack_explanation.stack.map((s)=>{
                                         return {
-                                            tag: "img",
+                                            tag: "div",
                                             attrs: {
-                                                src: s,
-                                                class: "shadow-md"
-                                            }
+                                                style: "height: 40px; width: 250px; margin: .2em 0; padding: 0 2em; display:flex; align-text: center;",
+                                                class: "shadow-md dark:bg-gray-200 bg-white"
+                                            },
+                                            children: [
+                                                {
+                                                    tag: "img",
+                                                    attrs: {
+                                                        style: "height: 100%; object-fit: cover",
+                                                        src: s.icon
+                                                    }
+                                                },
+                                                {
+                                                    tag: "p",
+                                                    style: "",
+                                                    children: [
+                                                        s.name
+                                                    ]
+                                                }
+                                            ]
                                         };
                                     })
                                 },
@@ -1346,6 +1425,9 @@ const m = (state)=>[
                                         ...state.detailed.stack_explanation.explanations.map((x)=>{
                                             return {
                                                 tag: "p",
+                                                attrs: {
+                                                    class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100"
+                                                },
                                                 children: [
                                                     x
                                                 ]
@@ -1395,6 +1477,9 @@ const m = (state)=>[
                                     children: state.detailed.problems.map((p)=>{
                                         return {
                                             tag: "p",
+                                            attrs: {
+                                                class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100"
+                                            },
                                             children: [
                                                 p
                                             ]
@@ -1421,6 +1506,9 @@ const m = (state)=>[
                                     children: state.detailed.lessons.map((p)=>{
                                         return {
                                             tag: "p",
+                                            attrs: {
+                                                class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100"
+                                            },
                                             children: [
                                                 p
                                             ]
@@ -1447,16 +1535,17 @@ function projectView(state) {
                 tag: "a",
                 attrs: {
                     onclick: ()=>(0, _octopusDefault.default).notify("removeDetails"),
-                    class: "w-full h-12 text-bold"
+                    class: "w-full h-12 text-bold text-2xl social-links dark:text-orange-200 text-orange-900 my-12",
+                    style: "cursor: pointer; text-decoration: underline;"
                 },
                 children: [
-                    `&laquo;` + " back"
+                    " back"
                 ]
             },
             {
                 tag: "div",
                 attrs: {
-                    class: "detailParent"
+                    class: "my-6 detailParent"
                 },
                 children: m(state)
             }

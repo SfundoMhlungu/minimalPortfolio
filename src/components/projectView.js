@@ -37,7 +37,9 @@ const m = (state) => [
                  {
                      tag: "p", 
                      attrs: {
-                    class: 'text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl'
+                        class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100",
+                                           
+                        // style: "opacity: .7;"
                      },
                      children: [state.detailed.longer_description]
                  },
@@ -57,7 +59,7 @@ const m = (state) => [
                          {
                              tag: "div",
                              attrs: {
-                                 class: "flex py-2 text-orange-800 dark:text-white",
+                                 class: "flex py-2 text-orange-800",
                                  style: "gap: 2em;"
                              },
                              children: state.project.links.map((link)=> {
@@ -67,7 +69,8 @@ const m = (state) => [
                                     tag: "a",
                                     attrs: {
                                         href: link.link,
-                                        target: "_blank"
+                                        target: "_blank",
+                                        style: "text-decoration: underline;"
                                     },
                                     children: ["Source Code"]
 
@@ -78,7 +81,8 @@ const m = (state) => [
                                         tag: "a",
                                         attrs: {
                                             href: link.link,
-                                            target: "_blank"
+                                            target: "_blank",
+                                            style: "text-decoration: underline;"
                                         },
                                         children: ["Video Demo"]
     
@@ -89,7 +93,8 @@ const m = (state) => [
                                 tag: "a",
                                 attrs: {
                                     href: link.link,
-                                    target: "_blank"
+                                    target: "_blank",
+                                    style: "text-decoration: underline;"
                                 },
                                 children: ["Live Demo"]
 
@@ -145,7 +150,9 @@ const m = (state) => [
                                 return {
                                     tag: "p",
                                     attrs: {
-                                        class: "text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl"
+                                        class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100",
+                                           
+                                                    // style: "opacity: .7;"
                                     },
                                     children: [d]
                                 }
@@ -165,12 +172,27 @@ const m = (state) => [
                                     },
                                     children: state.detailed.stack_explanation.stack.map((s)=> {
                                               return {
-                                                  tag: "img",
+                                                  tag: "div",
                                                 
                                                   attrs: {
-                                                      src: s,
-                                                      class: "shadow-md"
-                                                  }
+                                                    
+                                                      style: "height: 40px; width: 250px; margin: .2em 0; padding: 0 2em; display:flex; align-text: center;",
+                                                      class: "shadow-md dark:bg-gray-200 bg-white"
+                                                  },
+                                                  children: [
+                                                      {
+                                                          tag: "img",
+                                                          attrs: {
+                                                            style: "height: 100%; object-fit: cover",
+                                                              src: s.icon
+                                                          }
+                                                      },
+                                                      {
+                                                          tag: "p",
+                                                          style: "",
+                                                          children: [s.name]
+                                                      }
+                                                  ]
                                               }
                                     })
                                 },
@@ -193,6 +215,11 @@ const m = (state) => [
                                         ...state.detailed.stack_explanation.explanations.map((x)=> {
                                             return {
                                                 tag: "p",
+                                                attrs: {
+                                                    class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100",
+                                           
+                                                    // style: "opacity: .7;"
+                                                },
                                                 children: [x]
                                             }
                                         })
@@ -245,6 +272,11 @@ const m = (state) => [
                                     children: state.detailed.problems.map((p)=> {
                                         return {
                                             tag: "p",
+                                            attrs: {
+                                                class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100",
+                                           
+                                                // style: "opacity: .7;"
+                                            },
                                             children: [p]
                                         }
                                     })
@@ -269,6 +301,11 @@ const m = (state) => [
                                     children: state.detailed.lessons.map((p)=> {
                                         return {
                                             tag: "p",
+                                            attrs: {
+                                                class: "description text-gray-900 dark:text-white py-2 text-lg dark:text-white dark:opacity-70 opacity-100",
+                                           
+                                                // style: "opacity: .7;"
+                                            },
                                             children: [p]
                                         }
                                     })
@@ -299,15 +336,16 @@ export default function projectView(state){
                  tag: "a",
                  attrs: {
                      onclick: () => Bus.notify('removeDetails'),
-                      class: "w-full h-12 text-bold" 
+                    
+                      class:"w-full h-12 text-bold text-2xl social-links dark:text-orange-200 text-orange-900 my-12", style:"cursor: pointer; text-decoration: underline;" 
                  },
-                 children: [`&laquo;`+" back"]
+                 children: [" back"]
 
              },
              {
                 tag: "div",
                 attrs: {
-                    class: "detailParent"
+                    class: "my-6 detailParent"
                 },
                 children: m(state)
 
