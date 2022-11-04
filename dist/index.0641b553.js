@@ -687,12 +687,12 @@ function project(p) {
     return {
         tag: "div",
         attrs: {
-            class: "shadow-md, project",
+            class: "shadow-md project dark:border-black border-grey-800",
             // 00612C
             //9BD8B0
             //23B361
             //C9BBE2
-            style: "border: 1px solid #9BD8B0"
+            style: "border: 1px solid"
         },
         children: [
             {
