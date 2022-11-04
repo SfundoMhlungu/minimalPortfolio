@@ -1188,7 +1188,7 @@ const projectDetail = {
             "./projects/7.png"
         ],
         problems: [
-            "I really did not encounter that much of a problem here as I was implementing stuff I already know and implemented, a little problem maybe was dealing with different types of HTML elements and registering relevant events while converting from vdom to actual HTML"
+            "I really did not encounter that much of a problem here as I was implementing stuff I already know and implemented, a little problem maybe was dealing with different types of HTML elements and registering relevant events while converting from vdom to actual HTML."
         ],
         featured_code: [
             {
