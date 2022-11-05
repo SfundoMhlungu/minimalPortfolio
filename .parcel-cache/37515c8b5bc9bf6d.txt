@@ -17,7 +17,7 @@
 106C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\postcss\lib\container.d.ts133119990357504089 0
 113C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\lib\util\nameClass.js133119990372044062 0
 91C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\object-hash133119990343284064 1
-71C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist133121067034079208 1
+71C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist133121117316331336 1
 117C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\tailwindcss\lib\util\isPlainObject.js133119990371544056 0
 83C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\svg\api.svg133116183893309958 0
 123C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\@nodelib\fs.scandir\out\providers\common.js133119990340574069 0
@@ -55,7 +55,7 @@
 85C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\tailwind.config.js133119609177189636 0
 81C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\components133117487429384658 1
 122C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\@nodelib\fs.scandir\out\providers\async.js133119990338524137 0
-81C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\index.html133120883806729902 0
+81C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\src\index.html133121117125652109 0
 121C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\supports-preserve-symlinks-flag\.eslintrc133119990335324056 0
 84C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\gsap133119990370464092 1
 107C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\node_modules\gsap\types\custom-ease.d.ts133119990370894055 0
@@ -1543,7 +1543,7 @@
 90C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.1568f793.css133120432143722654 0
 90C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.4d663569.css133120432141545346 0
 94C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.4d663569.css.map133120432141887645 0
-82C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.html133120884444352767 0
+82C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\index.html133121117316261290 0
 118C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\man-technologist-medium-skin-tone.09a6d491.svg133120432141347039 0
 96C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\Roboto-Bold.00efd7aa.ttf133120432138835934 0
 99C:\Users\Sifundo-Mhlungu\Downloads\Video\projects\minimalPortfolio\dist\Roboto-Regular.63b41da7.ttf133120432137985365 0
