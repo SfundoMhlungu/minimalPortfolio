@@ -24,7 +24,7 @@ export const projects_model = [
         name: "Pam",
         description_one: "Mobile app to monitor and predict allergic reactions based on previous data using string algorithms.",
         tools: ["Ionic", "Capacitor", "Next.js","Ionic Storage","Tailwind", "Pullstate"],
-        links: [],
+        links: [{link: "https://youtu.be/UAWepSKoUvY", type: "yt"}],
         project_type: ["Frontend", "Algorithms"],
         description_2: "",
         img: "./projects/Pam/1.png"

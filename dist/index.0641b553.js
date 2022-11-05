@@ -839,7 +839,12 @@ const projects_model = [
             "Tailwind",
             "Pullstate"
         ],
-        links: [],
+        links: [
+            {
+                link: "https://youtu.be/UAWepSKoUvY",
+                type: "yt"
+            }
+        ],
         project_type: [
             "Frontend",
             "Algorithms"
