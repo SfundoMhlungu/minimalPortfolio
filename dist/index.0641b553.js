@@ -817,7 +817,7 @@ const projects_model = [
         ],
         links: [
             {
-                link: "",
+                link: "https://youtu.be/ekOI1nCndDk",
                 type: "yt"
             }
         ],
@@ -839,12 +839,7 @@ const projects_model = [
             "Tailwind",
             "Pullstate"
         ],
-        links: [
-            {
-                link: "",
-                type: "yt"
-            }
-        ],
+        links: [],
         project_type: [
             "Frontend",
             "Algorithms"
@@ -862,18 +857,13 @@ const projects_model = [
             "Ionic Storage",
             "Mongodb"
         ],
-        links: [
-            {
-                link: "",
-                type: "yt"
-            }
-        ],
+        links: [],
         project_type: [
             "Full Stack",
             "Frontend"
         ],
         description_2: "",
-        img: "./projects/t24/1.png"
+        img: "./projects/gymsuite/1.png"
     },
     {
         name: "AlgoViz",

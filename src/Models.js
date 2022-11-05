@@ -14,7 +14,7 @@ export const projects_model = [
         name: "Frame",
         description_one: "Cross-platform web app to make Machine Learning, data manipulation, and visualization accessible to anyone.",
         tools: ["HTML", "CSS", "JavaScript", "Plotly", "ML5","Astra DB","REST api","MVC", "web threads"],
-        links: [{link: "", type: "yt"}],
+        links: [{link: "https://youtu.be/ekOI1nCndDk", type: "yt"}],
         project_type: ["Full Stack", "Frontend"],
         description_2: "",
         img: "./projects/frame/1.png"
@@ -24,7 +24,7 @@ export const projects_model = [
         name: "Pam",
         description_one: "Mobile app to monitor and predict allergic reactions based on previous data using string algorithms.",
         tools: ["Ionic", "Capacitor", "Next.js","Ionic Storage","Tailwind", "Pullstate"],
-        links: [{link: "", type:"yt"}],
+        links: [],
         project_type: ["Frontend", "Algorithms"],
         description_2: "",
         img: "./projects/Pam/1.png"
@@ -34,10 +34,10 @@ export const projects_model = [
         name: "Gym Suite",
         description_one: "Cross platform web app for creating a perfect workout with predefined and customizable workout templates.",
         tools: ["React", "React Query", "MUI", "Ionic Storage", "Mongodb"],
-        links: [{link: "", type: "yt"}],
+        links: [],
         project_type: ["Full Stack", "Frontend"],
         description_2: "",
-        img: "./projects/t24/1.png"
+        img: "./projects/gymsuite/1.png"
 
     },{
          name: "AlgoViz",
