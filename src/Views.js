@@ -12,6 +12,6 @@ export function Projects(container){
 
 
 export function ProjectDetailed(project){
-    console.log(projectView({project: project, detailed: projectDetail[project.name]}))
+    // console.log(projectView({project: project, detailed: projectDetail[project.name]}))
      return createElement(projectView({project: project, detailed: projectDetail[project.name]}))
 }

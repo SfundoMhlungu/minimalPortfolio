@@ -7,12 +7,12 @@ const long = document.querySelector("#long")
 const short = document.querySelector("#short")
 
 let current = document.querySelector(`[role=short]`);
-const mode = document.querySelector("#mode")
+// const mode = document.querySelector("#mode")
 
 
-mode.addEventListener("click", ()=> {
-    document.body.classList.toggle("dark")
-})
+// mode.addEventListener("click", ()=> {
+//     document.body.classList.toggle("dark")
+// })
 btn_con.addEventListener("click", (e)=> {
     console.log(e.target.outerText)
     console.log(e, e.target)

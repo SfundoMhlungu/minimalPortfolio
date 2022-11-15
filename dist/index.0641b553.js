@@ -541,10 +541,10 @@ const btn_con = document.querySelector("#btnCon");
 const long = document.querySelector("#long");
 const short = document.querySelector("#short");
 let current = document.querySelector(`[role=short]`);
-const mode = document.querySelector("#mode");
-mode.addEventListener("click", ()=>{
-    document.body.classList.toggle("dark");
-});
+// const mode = document.querySelector("#mode")
+// mode.addEventListener("click", ()=> {
+//     document.body.classList.toggle("dark")
+// })
 btn_con.addEventListener("click", (e)=>{
     console.log(e.target.outerText);
     console.log(e, e.target);
@@ -593,17 +593,14 @@ function Projects(container) {
     });
 }
 function ProjectDetailed(project) {
-    console.log((0, _projectViewDefault.default)({
-        project: project,
-        detailed: (0, _models.projectDetail)[project.name]
-    }));
+    // console.log(projectView({project: project, detailed: projectDetail[project.name]}))
     return (0, _esm.createElement)((0, _projectViewDefault.default)({
         project: project,
         detailed: (0, _models.projectDetail)[project.name]
     }));
 }
 
-},{"atomicus/lib/esm":"9iIp8","./components/project":"l0poy","./Models":"acKq7","@parcel/transformer-js/src/esmodule-helpers.js":"2mdku","./components/projectView":"ld4W7"}],"9iIp8":[function(require,module,exports) {
+},{"atomicus/lib/esm":"9iIp8","./components/project":"l0poy","./Models":"acKq7","./components/projectView":"ld4W7","@parcel/transformer-js/src/esmodule-helpers.js":"2mdku"}],"9iIp8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "clearEl", ()=>clearEl);
@@ -788,7 +785,7 @@ function project(p) {
 }
 exports.default = project;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"2mdku","../Octopus":"2DffO"}],"2DffO":[function(require,module,exports) {
+},{"../Octopus":"2DffO","@parcel/transformer-js/src/esmodule-helpers.js":"2mdku"}],"2DffO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _atomicus = require("atomicus");
@@ -1526,6 +1523,6 @@ function projectView(state) {
 }
 exports.default = projectView;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"2mdku","../Octopus":"2DffO"}]},["2Ah9o","bNKaB"], "bNKaB", "parcelRequire5a46")
+},{"../Octopus":"2DffO","@parcel/transformer-js/src/esmodule-helpers.js":"2mdku"}]},["2Ah9o","bNKaB"], "bNKaB", "parcelRequire5a46")
 
 //# sourceMappingURL=index.0641b553.js.map
